@@ -1,6 +1,6 @@
 
 
-window.jquery = function(selectorOrArray){
+window.$ = window.jquery = function(selectorOrArray){
     let elements  //在这声明变量elements  表示这个变量 能够在window.jquery=function(){}中 这个{}里面全局使用
     if(typeof selectorOrArray === 'string'){  //if(){}else if(){}构成 重载！！！
         elements = document.querySelectorAll(selectorOrArray)
